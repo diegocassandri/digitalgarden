@@ -38,7 +38,7 @@ export default function Header({ title }) {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          {(siteConfig.siteMetadata.title || "Gatsby Garden") +
+         {(siteConfig.siteMetadata.title || "Gatsby Garden") +
             (title ? ` : ${title}` : "")}
         </title>
       </Helmet>
