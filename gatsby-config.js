@@ -7,7 +7,6 @@ module.exports = {
   siteMetadata: {
     title: `🍃 Digital Notes`,
     description: `A Digital Garden Tended by Diego Cassandri`,
-
     siteUrl: `https://diegocassandri.com/notes/`, // URL at which your site will be published. This should be present if you want RSS feed.
     // headerMenu: [ // Top Navbar items
     //   {type: 'page', item: '', title: 'Home'}, // Type can be 'page', 'note', 'tag', or 'link'
@@ -23,7 +22,6 @@ module.exports = {
     //     ]
     //   },
     // ],
-
     // menu: [ // This is the Table of Contents that comes in the home page if a Home Note is not specified. It can be much longer than the header menu.
     //   ... Same structure as headerMenu. You can have any depth level - multiple menus can be nested.
     // ]
