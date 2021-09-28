@@ -5,9 +5,10 @@
 module.exports = {
   // pathPrefix: `/notes`, // If your Digital Garden is not published at the root of your website, use this.
   siteMetadata: {
-    title: `🍃 Digital Notes`,
-    description: `A Digital Garden Tended by Diego Cassandri`,
+    title: `💡 Digital Notes`,
+    description: `A Digital Garden Tended by Diego Cassandri.`,
     siteUrl: `https://garden.diegocassandri.com`, // URL at which your site will be published. This should be present if you want RSS feed.
+    aboutUrl: `https://diegocassandri.com/aboutme`
     // headerMenu: [ // Top Navbar items
     //   {type: 'page', item: '', title: 'Home'}, // Type can be 'page', 'note', 'tag', or 'link'
     //   {type: 'page', item: 'sitemap', title: 'Sitemap'},

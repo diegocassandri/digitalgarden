@@ -8,10 +8,10 @@ body {
 }
 
 body.dark {
-  --main-bg-color: #0a0a0a;
+  --main-bg-color: #212124;
   --card-color: #161618;
   --main-text-color: #fff;
-  --navbar-bg-color: #212124;
+  --navbar-bg-color: #161618;
   --secondary-text-color: #818181;
   --link-color: #818181;
 }

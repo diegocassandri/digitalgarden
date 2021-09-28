@@ -72,3 +72,16 @@ form .search-results ul {
   text-decoration: underline;
   cursor: pointer;
 }
+
+a {
+  text-decoration-style: none;
+}
+
+a {
+  color:#007B9E;
+  text-decoration: none;
+}
+a:hover {
+  color: #00536B;
+  text-decoration: wavy;
+}

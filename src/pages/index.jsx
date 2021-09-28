@@ -5,6 +5,8 @@ import Menu from "../components/menu"
 import siteConfig from "../../gatsby-config"
 import NoteList from "../components/note-list"
 
+//<h4>{ siteConfig.siteMetadata.title }</h4>
+
 export default function Home() {
   const data = useStaticQuery(graphql`
 		query HomeQuery {
@@ -45,8 +47,9 @@ export default function Home() {
       </Layout>
   	) : (
 	    <Layout title="Home">
-	      <h1>{ siteConfig.siteMetadata.title }</h1>
+	      
 	      <p className="lead">{ siteConfig.siteMetadata.description }</p>
+		  <p className="lead"><a href={ siteConfig.siteMetadata.aboutUrl }>About me 👩‍💻</a> </p>
 
 	      <h3>Table Of Contents</h3>
 	      <Menu />
