@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     title: `🍃 Digital Notes`,
     description: `A Digital Garden Tended by Diego Cassandri`,
-    siteUrl: `https://diegocassandri.com/notes/`, // URL at which your site will be published. This should be present if you want RSS feed.
+    siteUrl: `https://garden.diegocassandri.com`, // URL at which your site will be published. This should be present if you want RSS feed.
     // headerMenu: [ // Top Navbar items
     //   {type: 'page', item: '', title: 'Home'}, // Type can be 'page', 'note', 'tag', or 'link'
     //   {type: 'page', item: 'sitemap', title: 'Sitemap'},
