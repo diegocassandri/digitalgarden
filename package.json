@@ -26,9 +26,8 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "d3": "^5.16.0",
-    "gatsby": "^2.32.13",
+    "gatsby": "^2.26.1",
     "gatsby-awesome-pagination": "^0.3.6",
-    "gatsby-cli": "^3.14.0",
     "gatsby-plugin-dark-mode": "^1.1.2",
     "gatsby-plugin-feed": "^2.13.1",
     "gatsby-plugin-google-fonts": "^1.0.1",

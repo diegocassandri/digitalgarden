@@ -13,8 +13,8 @@ export default function NoteList({ notes }) {
           <span key={index}>
             <Link to={ `/tags/${tag}` }>#{tag}</Link>
             { index < data.node.frontmatter.tags.length - 1 ? ", " : "" }
-          </span>
-        )) 
+          </span> 
+        ))  
         : "No Tags" }</p>
       <p className="note-date">Published on { moment(new Date(data.node.fields.date)).format("Do MMMM, YYYY") }</p>
     </div>
