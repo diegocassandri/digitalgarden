@@ -35,7 +35,7 @@
     "gatsby-plugin-react-helmet": "^3.11.0-next.0",
     "gatsby-remark-double-brackets-link": "^0.1.8",
     "gatsby-remark-mermaid": "^2.1.0",
-    "gatsby-remark-prismjs": "^5.7.0",
+    "gatsby-remark-prismjs": "5.7.0",
     "gatsby-source-filesystem": "^2.11.1",
     "gatsby-transformer-remark": "^2.16.1",
     "gray-matter": "^4.0.2",
